@@ -16,6 +16,11 @@ class AuthController extends Controller
         return view('auth.login');
     }
 
+    public function dashboard()
+    {
+        return view('dashboard.index');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
