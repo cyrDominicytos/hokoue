@@ -39,7 +39,7 @@ License: For each use you must have a valid license purchased only from above li
 	</head>
 	<!--end::Head-->
 	<!--begin::Body-->
-	<body id="kt_body" style="background-image: url('assets/media/misc/page-bg.jpg')" class="page-bg header-fixed header-tablet-and-mobile-fixed aside-enabled">
+	<body id="kt_body" style="background-image: url({{ asset('src/media/misc/page-bg.jpg')}} )" class="page-bg header-fixed header-tablet-and-mobile-fixed aside-enabled">
 		<!--begin::Main-->
 		<!--begin::Root-->
 		<div class="d-flex flex-column flex-root">
